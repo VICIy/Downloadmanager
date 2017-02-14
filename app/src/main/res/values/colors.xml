@@ -3,4 +3,228 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="equip_title">#ccffffff</color>
+    <color name="action_bar_wechat">#2f3535</color>
+    <color name="gray_normal_1">#F5F5F5</color>
+    <color name="gray_cccbcbcc">#cccbcbcc</color>
+    <color name="gray_pressed_1">#CCCCCC</color>
+    <color name="gray_normal">#999999</color>
+    <color name="gray_e6ffffff">#e6ffffff</color>
+    <color name="gray_pressed">#666666</color>
+    <color name="red_normal">#FB1A52</color>
+    <color name="red_normal_new">#FF3366</color>
+    <color name="red_pressed_new">#990033</color>
+    <color name="view_color">#f2f2f2</color>
+    <color name="action_bar_bg">#FB1A52</color>
+    <color name="color_00000000">#00000000</color>
+    <color name="action_bar_text_color_wechat">#c6c6c6</color>
+    <color name="left_menu_bt_pressed_bg">#eeeeee</color>
+    <!-- Dialog风格Activity按钮下颜色 -->
+    <color name="item_pressed_bg">#dddddd</color>
+    <!-- “登录”文字按下颜色 -->
+    <color name="front">#c4302c</color>
+    <!-- 轮播图front颜色 -->
+    <color name="dialog_title_text_color">#2eb5e4</color>
+    <!-- “我的国家右侧默认文字”标题颜色 -->
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="hint_bg">#ed1111</color>
+    <!-- 糖卡colors -->
+    <color name="stockinfo_value">#666</color>
+    <color name="stock_color1">#999</color>
+    <!-- 价格水平之下 -->
+    <color name="stock_color3">#F36</color>
+    <!-- 价格水平之上 -->
+    <color name="stock_list_item_name">#666</color>
+    <!-- 糖卡列表名称 -->
+    <color name="stock_list_item_pressed">#CCC</color>
+    <!-- 列表项选中背景 -->
+    <color name="stock_userinfo_value">#333</color>
+    <color name="stock_trade_key">#999</color>
+    <!-- 糖卡买卖界面文字颜色 -->
+    <color name="stock_trade_value">#333</color>
+    <!-- 糖卡买卖界面文字颜色 -->
+    <color name="hint_dialog">#D8D8D8</color>
+
+    <!-- IM colors -->
+    <color name="im_tab_text_color_normal">#989898</color>
+    <color name="im_tab_text_color_pressed">#4C8BCC</color>
+    <color name="im_top_bar_bg">#F7F7F9</color>
+    <color name="im_top_title_color">#000000</color>
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="chat_gray">#cbcbcb</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange_color">#f22613</color>
+    <!--消息字体颜色-->
+    <color name="message_text_color1">#333333</color>
+    <color name="message_text_color2">#ff3366</color>
+    <color name="talents_c66feb">#c66feb</color>
+    <color name="hint_color">#037aff</color>
+    <color name="text_ff9f9f">#ff9f9f</color>
+
+    <color name="buy_equip_text">#4a90e2</color>
+    <color name="stock_click">#eeeeee</color>
+    <color name="stock_tv_color1">#999999</color>
+    <color name="stock_tv_color2">#f64747</color>
+    <color name="stock_tv_color3">#ffffff</color>
+    <color name="stock_tv_color4">#333333</color>
+    <!--钱庄-->
+    <color name="money_bg1">#ccff6600</color>
+    <color name="money_bg2">#ffffff</color>
+    <color name="money_bg3">#cc00b06b</color>
+    <color name="money_tv_color1">#ffffff</color>
+    <color name="money_tv_color2">#333333</color>
+    <color name="money_tv_color3">#ff3366</color>
+
+    <!--折线图-->
+    <color name="text_background">#ff7676</color>
+
+
+    <!--新版UTOUU-->
+    <color name="new_utouu_bg_color1">#f2f2f2</color>
+    <color name="new_utouu_text_color1">#999999</color>
+    <color name="new_utouu_text_color2">#333333</color>
+    <color name="new_utouu_text_color3">#cccccc</color>
+    <color name="new_utouu_text_color4">#666666</color>
+    <color name="item_discover_bg1">#dddddd</color>
+    <color name="new_utouu_login_logo_bg">#fd4876</color>
+    <color name="textcolor1">#5F646E</color>
+    <color name="textcolor2_666666">#666666</color>
+    <color name="new_utouu_view">#dddddd</color>
+    <color name="textcolor_f64747">#f64747</color>
+    <color name="textcolor_ff4876">#ff4876</color>
+    <color name="textcolor_ff3366">#ff3366</color>
+    <color name="textcolor_4c9bff">#4c9bff</color>
+    <color name="textcolor_9b59b6">#9b59b6</color>
+    <color name="utouu_dialog_titleColor">#FF5680</color>
+    <color name="editext_textColor">#333333</color>
+    <color name="editext_textColorHint">#DDDDDD</color>
+    <color name="basic_button_normal">#FFC2D1</color>
+    <color name="basic_button_pressed">#FF5680</color>
+    <color name="time_red">#fd3869</color>
+    <color name="textcolor_ff6600">#ff6600</color>
+    <color name="textcolor_0eb472">#0eb472</color>
+    <color name="base_titlebar">#22313f</color>
+    <color name="base_titlebar_line">#131b23</color>
+    <color name="color_fb7545">#fb7545</color>
+    <color name="popupwindow_lv">#ff6666</color>
+    <color name="popupwindow_ren_kou">#A7A7A7</color>
+    <!--<color name="textcolor_131B23">#131B23</color>-->
+    <!--<color name="textcolor_4c9bff">#22313F</color>-->
+
+    <color name="half_transparent">#88000000</color>
+    <color name="hint">#f96268</color>
+
+
+    <color name="oval_yellow">#fdb359</color>
+    <color name="yellow_febe28">#fffebe28</color>
+    <color name="yellow_ffda1c">#ffda1c</color>
+    <color name="yellow_ffc61c">#ffc61c</color>
+    <color name="red_f64747">#fff64747</color>
+    <color name="oval_blue">#2eb3e8</color>
+    <color name="oval_red">#f96268</color>
+    <color name="oval_gray">#cccccc</color>
+    <color name="sign_line">#d0021b</color>
+
+
+    <color name="status_excellent">#77c537</color>
+    <color name="status_general">#f9bf3b</color>
+    <color name="status_loon">#ff7676</color>
+    <color name="status_zombie">#999999</color>
+    <color name="text_4183d7">#4183d7</color>
+    <color name="text_f64747">#f64747</color>
+    <color name="text_0076ff">#0076ff</color>
+    <color name="line_ffd5d5">#ffd5d5</color>
+
+    <color name="text_26a65b">#26a65b</color>
+    <color name="text_36bc98">#36bc98</color>
+
+
+    <color name="black_333333">#333333</color>
+    <color name="black_521005">#521005</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_dddddd">#dddddd</color>
+    <color name="gray_dedede">#dedede</color>
+    <color name="gray_666666">#666666</color>
+    <color name="gray_ccffffff">#ccffffff</color>
+    <color name="gray_f0f0f0">#dddddd</color>
+    <color name="blue_0076ff">#0076ff</color>
+    <color name="gray_80dddddd">#80dddddd</color>
+    <color name="red_cb2952">#cb2952</color>
+    <color name="red_ff3366">#ff3366</color>
+    <color name="red_db2c25">#db2c25</color>
+    <color name="textcolor_ffffff">#ffffff</color>
+    <color name="textcolor_999999">#999999</color>
+    <color name="color_ff9600">#ff9600</color>
+    <color name="color_fe3824">#fe3824</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_09bb07">#09bb07</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_48ffffff">#48ffffff</color>
+    <color name="textcolor_0076ff">#0076ff</color>
+    <color name="textcolor_7a797b">#7a797b</color>
+    <color name="textcolor_333333">#333333</color>
+    <color name="textcolor_09bb07">#09bb07</color>
+    <color name="textcolor_fff0c5">#fff0c5</color>
+    <color name="textcolor_f76260">#f76260</color>
+    <color name="color_f64747">#f64747</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_f5a623">#f5a623</color>
+    <color name="color_db2c25">#db2c25</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+
+
+    <color name="color_f9bf3b">#f9bf3b</color>
+    <color name="color_ff6600">#ff6600</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_ea3e3e">#ea3e3e</color>
+    <color name="color_ff6e6e">#ff6e6e</color>
+    <color name="color_f75757">#f75757</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_b4b6ba">#b4b6ba</color>
+    <color name="color_cfcfcf">#cfcfcf</color>
+
+
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="ebeced">#ebeced</color>
+    <color name="color_0076ff">#0076ff</color>
+    <color name="color_F3F3F5">#F3F3F5</color>
+    <color name="color_ff3366">#ff3366</color>
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_cccccc">#cccccc</color>
+
 </resources>

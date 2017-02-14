@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/temprelativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/base_titlebar"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/top_left_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_launcher"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="26dp"
+                android:background="@color/base_titlebar_line"/>
+
+            <com.utouu.view.CustomTextView
+                android:id="@+id/titletextview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line_top_right"
+                    android:layout_width="1dp"
+                    android:layout_height="26dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/top_right_textview"
+                    android:background="@color/base_titlebar_line"
+                    android:visibility="gone"/>
+
+                <TextView
+
+                    android:id="@+id/top_right_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:visibility="gone"/>
+
+
+                <ImageView
+                    android:id="@+id/top_right_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+
+                    />
+
+                <!--右边图片悬浮的数量提示红色圆圈-->
+                <TextView
+                    android:id="@+id/top_right_textview2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignLeft="@id/top_right_imageview"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_9"
+                    android:visibility="gone"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/ic_launcher"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_broadcast"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin_32"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@color/textcolor_fff0c5"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/textview_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/iv_cancel"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@mipmap/ic_launcher"
+                android:drawablePadding="5dp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="#ff6600"
+                android:textSize="@dimen/text_size_14" />
+
+            <ImageView
+                android:id="@+id/iv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_launcher"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
